@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S. Sumreen Ali - Growth Engineer & Marketing Expert</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; }
+        .chart-container { position: relative; width: 100%; max-width: 450px; margin: auto; height: 300px; }
+        @media (min-width: 768px) { .chart-container { height: 400px; } }
+        .timeline-item { position: relative; padding-bottom: 2rem; padding-left: 2.5rem; border-left: 2px solid #e2e8f0; }
+        .timeline-item:last-child { border-left: none; padding-bottom: 0; }
+        .timeline-dot { position: absolute; left: -0.5rem; top: 0; height: 1rem; width: 1rem; background-color: #4f46e5; border-radius: 9999px; border: 2px solid white; }
+        .stat-card { transition: transform 0.2s; }
+        .stat-card:hover { transform: translateY(-5px); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700">
+
+    <header class="sticky top-0 z-50 w-full bg-white shadow-md">
+        <nav class="container mx-auto flex max-w-7xl items-center justify-between p-4">
+            <div class="text-xl font-bold text-indigo-600">S. Sumreen Ali</div>
+            <div class="hidden space-x-6 md:block">
+                <a href="#home" class="text-sm font-medium hover:text-indigo-600">Home</a>
+                <a href="#marketing" class="text-sm font-medium hover:text-indigo-600">Marketing Success</a>
+                <a href="#experience" class="text-sm font-medium hover:text-indigo-600">Experience</a>
+                <a href="#projects" class="text-sm font-medium hover:text-indigo-600">Dev Projects</a>
+            </div>
+            <a href="mailto:sumreenali111@gmail.com" class="hidden md:block rounded-md bg-indigo-600 px-4 py-2 text-sm font-semibold text-white">Hire Me</a>
+        </nav>
+    </header>
+
+    <main class="container mx-auto max-w-7xl px-4">
+
+        <section id="home" class="flex min-h-[80vh] items-center py-16">
+            <div class="grid grid-cols-1 items-center gap-12 md:grid-cols-2">
+                <div>
+                    <span class="mb-2 block font-semibold text-indigo-600 tracking-widest uppercase text-sm">Growth Engineer & Digital Strategist</span>
+                    <h1 class="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
+                        Merging Code with <span class="text-indigo-600">Conversions.</span>
+                    </h1>
+                    <p class="mt-6 text-lg leading-8 text-slate-600">
+                        A unique hybrid professional offering <strong>Complete Digital Solutions</strong>. From Fullstack development to high-ROI Meta ad campaigns and SEO, I build the engines and the fuel that drives business growth.
+                    </p>
+                    <div class="mt-8 flex flex-wrap gap-4">
+                        <a href="#marketing" class="rounded-md bg-indigo-600 px-5 py-3 text-sm font-semibold text-white shadow-xl hover:bg-indigo-500">View Marketing Portfolio</a>
+                        <a href="https://github.com/syeda-sumreen-ali" class="rounded-md border border-slate-300 px-5 py-3 text-sm font-semibold hover:bg-slate-50">GitHub Profile</a>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="stat-card rounded-2xl bg-white p-8 shadow-xl border-b-4 border-indigo-500">
+                        <span class="block text-4xl font-bold text-slate-900">14K+</span>
+                        <span class="mt-1 block text-sm text-slate-500">Monthly Ad Views</span>
+                    </div>
+                    <div class="stat-card rounded-2xl bg-white p-8 shadow-xl border-b-4 border-blue-500">
+                        <span class="block text-4xl font-bold text-slate-900">20+</span>
+                        <span class="mt-1 block text-sm text-slate-500">Products Shipped</span>
+                    </div>
+                    <div class="stat-card rounded-2xl bg-white p-8 shadow-xl border-b-4 border-green-500">
+                        <span class="block text-4xl font-bold text-slate-900">ROI</span>
+                        <span class="mt-1 block text-sm text-slate-500">Focused Strategy</span>
+                    </div>
+                    <div class="stat-card rounded-2xl bg-white p-8 shadow-xl border-b-4 border-purple-500">
+                        <span class="block text-4xl font-bold text-slate-900">SEO</span>
+                        <span class="mt-1 block text-sm text-slate-500">Audit & Execution</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="marketing" class="py-16 bg-indigo-900 rounded-3xl px-8 text-white mb-24 overflow-hidden relative">
+            <div class="relative z-10">
+                <span class="text-indigo-300 font-bold uppercase tracking-widest text-sm">Featured Growth Success</span>
+                <h2 class="text-3xl md:text-5xl font-bold mt-2">Refyline: 360° Digital Transformation</h2>
+                <p class="mt-4 text-indigo-100 max-w-2xl text-lg">In just 30 days, I executed a full-scale marketing and dev blitz resulting in 14K+ views and 50+ direct sales.</p>
+                
+                <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20">
+                        <h4 class="font-bold text-xl mb-3">Content & Social</h4>
+                        <ul class="text-sm space-y-2 opacity-90">
+                            <li>• Influencer Collaborations</li>
+                            <li>• AI-Generated Video Content</li>
+                            <li>• Product Photography & Unboxing</li>
+                            <li>• Review Seeding & Community Mgmt</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20">
+                        <h4 class="font-bold text-xl mb-3">Technical Marketing</h4>
+                        <ul class="text-sm space-y-2 opacity-90">
+                            <li>• Meta Pixel & GTM Setup</li>
+                            <li>• Google Business Optimization</li>
+                            <li>• Referral Program Dev</li>
+                            <li>• Ad Campaign Management</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20">
+                        <h4 class="font-bold text-xl mb-3">Branding & Dev</h4>
+                        <ul class="text-sm space-y-2 opacity-90">
+                            <li>• Custom Website Development</li>
+                            <li>• Product Packaging Design</li>
+                            <li>• Event Participation Strategy</li>
+                            <li>• Branding Identity</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-8 flex gap-4">
+                    <a href="https://facebook.com/refylineOfficials" target="_blank" class="bg-white text-indigo-900 px-6 py-2 rounded-full font-bold text-sm">Facebook</a>
+                    <a href="https://facebook.com/refyline" target="_blank" class="bg-white text-indigo-900 px-6 py-2 rounded-full font-bold text-sm">Instagram</a>
+                      <a href="https://refyline.com" target="_blank" class="bg-white text-indigo-900 px-6 py-2 rounded-full font-bold text-sm">Website</a>
+                </div>
+                </div>
+            </div>
+            <div class="absolute right-[-10%] top-[-10%] w-96 h-96 bg-indigo-500 rounded-full blur-3xl opacity-20"></div>
+        </section>
+
+        <section class="py-16 grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+                <h3 class="text-3xl font-bold mb-6">Current Partnership</h3>
+                <div class="bg-white p-8 rounded-2xl shadow-lg border-l-8 border-orange-400">
+                    <h4 class="text-2xl font-bold">Nagaar Fashions</h4>
+                    <p class="text-indigo-600 font-medium mb-4">Complete Digital Management</p>
+                    <p class="text-slate-600 mb-6">Managing the digital heartbeat of one of Pakistan's premier fashion names. Scope includes:</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-slate-100 px-3 py-1 rounded text-xs font-bold uppercase">Website Management</span>
+                        <span class="bg-slate-100 px-3 py-1 rounded text-xs font-bold uppercase">TikTok Ads</span>
+                        <span class="bg-slate-100 px-3 py-1 rounded text-xs font-bold uppercase">Instagram Growth</span>
+                        <span class="bg-slate-100 px-3 py-1 rounded text-xs font-bold uppercase">Facebook Marketing</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-3xl font-bold mb-6">Agencies & Leadership</h3>
+                <div class="space-y-4">
+                    <div class="bg-white p-6 rounded-xl shadow-md flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-lg">Tacklebiz</h4>
+                            <p class="text-sm text-slate-500">Founder & Strategy Lead</p>
+                        </div>
+                        <span class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-xs font-bold">Marketing Agency</span>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-lg">Techsyhub</h4>
+                            <p class="text-sm text-slate-500">Social Media & Dev Lead</p>
+                        </div>
+                        <a href="https://facebook.com/techsyhub" class="text-indigo-600 hover:underline text-sm font-bold">Visit Page</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="py-24">
+            <div class="grid grid-cols-1 lg:grid-cols-5 gap-16">
+                <div class="lg:col-span-2">
+                    <h2 class="text-3xl font-bold mb-8">Professional Journey</h2>
+                    <div id="timeline-container">
+                        </div>
+                </div>
+                <div class="lg:col-span-3">
+                    <h2 class="text-3xl font-bold mb-8">Technical & Marketing Stack</h2>
+                    <div class="chart-container mb-8">
+                        <canvas id="skillsChart"></canvas>
+                    </div>
+                    <div id="skills-list" class="grid grid-cols-2 gap-4 rounded-xl bg-white p-6 shadow-xl sm:grid-cols-3">
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="py-24 border-t border-slate-200">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-slate-900">Software Portfolio</h2>
+                <p class="text-slate-600 mt-2">Scalable applications built with modern stacks.</p>
+            </div>
+            <div id="project-gallery" class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+                </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-white py-16 mt-24">
+        <div class="container mx-auto max-w-7xl px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Ready to Scale Your Brand?</h2>
+            <p class="text-slate-400 mb-8">Currently accepting new projects for Q3 2025.</p>
+            <div class="flex justify-center space-x-6">
+                <a href="mailto:sumreenali111@gmail.com" class="text-xl hover:text-indigo-400">sumreenali111@gmail.com</a>
+            </div>
+            <div class="mt-12 text-slate-500 text-sm">
+                &copy; 2025 S. Sumreen Ali. Growth Engineer & Full Stack Developer.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const experienceData = [
+                { role: "Software Engineer & Team Lead", company: "Techsyhub", date: "2021 - Present", location: "Marketing & Dev Management" },
+                { role: "Founder & Marketing Strategist", company: "Tacklebiz", date: "Present", location: "Full-Service Marketing Agency" },
+                { role: "Growth Lead (Contract)", company: "Refyline", date: "2025", location: "Complete 360 Branding & Sales" },
+                { role: "Software Engineer", company: "Servion Soft", date: "2024 - 2025", location: "Karachi" }
+            ];
+
+            const skillsData = {
+                marketing: ["Social Media Management", "Meta Ads", "Google Ads (GTM/Pixel)", "SEO", "Influencer Marketing", "Product Photography", "Video Editing (AI)", "Branding"],
+                dev: ["MERN Stack", "Next.js", "React Native", "TypeScript", "Socket.io", "AWS/Cloud", "MySQL/MongoDB"]
+            };
+
+            const projectsData = [
+                {
+                    title: "Next Chat",
+                    role: "React Native Developer",
+                    desc: "Advanced AI-integrated chat application with offline capabilities and travel agent features.",
+                    tags: ["AI", "React Native", "Socket"],
+                    link: "https://apps.apple.com/us/app/nextchat/id6478282204"
+                },
+                {
+                    title: "Silent Roar Production",
+                    role: "Team Lead",
+                    desc: "Music distribution platform managing 100+ stores. Orchestrated technical and business workflows.",
+                    tags: ["MERN", "Leadership", "NextJS"],
+                    link: "http://silentroarprod.com/"
+                },
+                {
+                    title: "Ucaaz Retail Chain",
+                    role: "Full Stack Developer",
+                    desc: "Integration of Odoo POS and WordPress with a custom mobile application.",
+                    tags: ["E-commerce", "MERN", "Mobile"],
+                    link: "https://ucaaz.com/"
+                }
+            ];
+
+            // Render Timeline
+            const timeline = document.getElementById('timeline-container');
+            experienceData.forEach(item => {
+                const div = document.createElement('div');
+                div.className = 'timeline-item';
+                div.innerHTML = `<div class="timeline-dot"></div><time class="text-xs font-bold text-indigo-500 uppercase">${item.date}</time><h3 class="font-bold text-slate-900">${item.role}</h3><p class="text-sm text-slate-600">${item.company}</p>`;
+                timeline.appendChild(div);
+            });
+
+            // Render Skills
+            const skillList = document.getElementById('skills-list');
+            [...skillsData.marketing, ...skillsData.dev].forEach(skill => {
+                const span = document.createElement('div');
+                span.innerHTML = `<span class="text-xs font-bold text-slate-700 bg-slate-100 px-2 py-1 rounded">${skill}</span>`;
+                skillList.appendChild(span);
+            });
+
+            // Chart
+            const ctx = document.getElementById('skillsChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Marketing & Strategy', 'Product Development'],
+                    datasets: [{
+                        data: [skillsData.marketing.length, skillsData.dev.length],
+                        backgroundColor: ['#4f46e5', '#94a3b8'],
+                        borderWidth: 0
+                    }]
+                },
+                options: { maintainAspectRatio: false, plugins: { legend: { position: 'bottom' } } }
+            });
+
+            // Render Projects
+            const gallery = document.getElementById('project-gallery');
+            projectsData.forEach(p => {
+                const card = document.createElement('div');
+                card.className = 'bg-white p-6 rounded-2xl shadow-lg border border-slate-100 hover:shadow-2xl transition';
+                card.innerHTML = `
+                    <h4 class="text-xl font-bold mb-1">${p.title}</h4>
+                    <p class="text-indigo-600 text-sm font-bold mb-3">${p.role}</p>
+                    <p class="text-slate-600 text-sm mb-4">${p.desc}</p>
+                    <div class="flex flex-wrap gap-2 mb-4">${p.tags.map(t => `<span class="text-[10px] bg-slate-100 px-2 py-1 rounded font-bold uppercase">${t}</span>`).join('')}</div>
+                    ${p.link ? `<a href="${p.link}" target="_blank" class="text-indigo-600 font-bold text-sm">View Case Study &rarr;</a>` : ''}
+                `;
+                gallery.appendChild(card);
+            });
+        });
+    </script>
+</body>
+</html>
